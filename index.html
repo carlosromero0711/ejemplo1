@@ -1,75 +1,37 @@
  <!DOCTYPE html>
 
-<html>
-    <head>       
-	<link href="app.css" rel="styleheet" type="text/css">
-	
-        <meta charset="utf-8">
-        <title>Formulario</title>
-    </head>
-
+<html lang="en">
+<head>     
+     <meta charset="UTF8">
+     <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet"> 
+     <link rel="stylesheet" href="app.css">
+     <title>Formulario</title>> 
+</head>
 <body>
+     <div class="container">
+	<div class="form__top">
+		<h2>Formulario  <span>Registro</span></h2>
+	</div>
+	<form class="form__reg" action="">
+		<input class="input" type="text" placeholder="&#128100; Nombres" required autofocus>
+		<input class="input" type"text" placeholder="&#9993; Apellidos" required autofocus>
+		<input class="input" type"text" placeholder="&#128222; Edad" required>
+		<input type="radio" name="text" id="varon" value="Varon">
+			<label for="varon">Varon:</label>
+			<input type="radio" name="sexo" id="mujer" value="Mujer$
+			 <label for="varon">Mujer:</label>
+		<input class="input" type"text" placeholder="&#9993; Domicilio" required>
+		<input class="input" type"tel" placeholder="&#9993; Numero de Telefono" required>
+		    <div class="btn__form">
+			<input class="btn__submit" type="submit" value="REGISTRAR">
+			<input class="btn__reset" type="reset" value="LIMPIAR">
 
 
-<p>
-
-<label for="nombre">Nombre: </label>
-
-<input type="text" name="nombre" id="nombre">
-
-<br/> <br/>
-
-<label for="apellido">Apellido: </label>
-
-<input type="text" name="apellido" id="apellido">
-
-<br/> <br/>
-
-<label for="edad">Edad: </label>
-
-<input type="text" name="edad" id="edad">
-
-<br/> <br/>
-
-<label for="domicilio">Domicilio: </label>
-
-<input type="text" name="domicilio" id="domicilio">
-
-<br/> <br/>
-
-<label for="nacionalidad">Nacionalidad: </label>
-
-<input type="text" name="nacionalidad" id="nacionalidad">
-
-<br/> <br/>
-
-<label for="numero">Numero de Telefono: </label>
-
-<input type="text" name="numero" id="numero">
-
-<br/> <br/>
-
-<input type="radio" name="sexo" id="varon" value="Varón">
-
-<label for="varon">Varón: </label>
-
-<br/> <br/>
-
-<input type="radio" name="sexo" id="mujer" value="Mujer">
-
-<label for="mujer">Mujer: </label>
-
-<br/> <br/>
-
-
-<input type="submit" value="Enviar">
-
-<input type="reset">
-
-</p>
-
-</form>
-
+		</div>
+	   </form>
+	</div>
 </body>
-
 </html>
+
+
